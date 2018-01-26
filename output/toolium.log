@@ -1,0 +1,162 @@
+DEBUG   2018-01-10 08:55:34,221 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 08:55:34,222 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 08:55:34,224 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 08:55:34,225 [config_driver] Chrome driver path given in properties: /url/local/bin/chromedriver
+ERROR   2018-01-10 08:55:34,228 [config_driver] Chrome driver can not be launched: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+DEBUG   2018-01-10 08:57:29,694 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 08:57:29,695 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 08:57:29,697 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 08:57:29,698 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 08:57:31,290 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 08:57:31,294 [environment] Running new scenario: successful login
+DEBUG   2018-01-10 08:57:32,772 [login] Login with user 'tomsmith'
+INFO    2018-01-10 08:57:34,238 [environment] The scenario 'successful login' has passed
+DEBUG   2018-01-10 08:57:34,301 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 08:57:34,302 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 08:57:34,304 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 08:57:34,304 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 08:57:35,915 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 08:57:35,918 [environment] Running new scenario: successful logout
+DEBUG   2018-01-10 08:57:36,960 [login] Login with user 'tomsmith'
+INFO    2018-01-10 08:57:39,194 [environment] The scenario 'successful logout' has passed
+DEBUG   2018-01-10 09:54:57,980 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 09:54:57,980 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+DEBUG   2018-01-10 09:56:42,802 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 09:56:42,802 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 09:56:42,805 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 09:56:42,805 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 09:56:44,397 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 09:56:44,399 [environment] Running new scenario: successful login
+DEBUG   2018-01-10 09:56:51,600 [login] Login with user 'tomsmith'
+ERROR   2018-01-10 09:56:56,674 [page_element] Page element of type 'InputText' with locator ('id', 'username') not found
+ERROR   2018-01-10 09:56:56,675 [environment] The scenario 'successful login' has failed
+INFO    2018-01-10 09:56:56,796 [utils] Screenshot saved in /home/thembela/Documents/Facebook_Login/output/screenshots/2018-01-10_095642_chrome/01_successful_login.png
+DEBUG   2018-01-10 09:56:56,798 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-01-10 09:56:56,866 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 09:56:56,866 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 09:56:56,868 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 09:56:56,868 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 09:56:58,449 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 09:56:58,452 [environment] Running new scenario: successful logout
+DEBUG   2018-01-10 09:57:01,036 [login] Login with user 'tomsmith'
+ERROR   2018-01-10 09:57:06,111 [page_element] Page element of type 'InputText' with locator ('id', 'username') not found
+ERROR   2018-01-10 09:57:06,113 [environment] The scenario 'successful logout' has failed
+INFO    2018-01-10 09:57:06,218 [utils] Screenshot saved in /home/thembela/Documents/Facebook_Login/output/screenshots/2018-01-10_095642_chrome/02_successful_logout.png
+DEBUG   2018-01-10 09:57:06,220 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-01-10 09:57:31,204 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 09:57:31,205 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 09:57:31,208 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 09:57:31,208 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 09:57:32,816 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 09:57:32,819 [environment] Running new scenario: successful login
+DEBUG   2018-01-10 09:57:39,988 [login] Login with user 'tomsmith'
+ERROR   2018-01-10 09:57:45,011 [page_element] Page element of type 'InputText' with locator ('id', 'username') not found
+ERROR   2018-01-10 09:57:45,013 [environment] The scenario 'successful login' has failed
+INFO    2018-01-10 09:57:45,127 [utils] Screenshot saved in /home/thembela/Documents/Facebook_Login/output/screenshots/2018-01-10_095731_chrome/01_successful_login.png
+DEBUG   2018-01-10 09:57:45,129 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-01-10 09:57:45,201 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 09:57:45,202 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 09:57:45,203 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 09:57:45,203 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 09:57:46,797 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 09:57:46,799 [environment] Running new scenario: successful logout
+DEBUG   2018-01-10 09:57:49,125 [login] Login with user 'tomsmith'
+ERROR   2018-01-10 09:57:54,139 [page_element] Page element of type 'InputText' with locator ('id', 'username') not found
+ERROR   2018-01-10 09:57:54,141 [environment] The scenario 'successful logout' has failed
+INFO    2018-01-10 09:57:54,274 [utils] Screenshot saved in /home/thembela/Documents/Facebook_Login/output/screenshots/2018-01-10_095731_chrome/02_successful_logout.png
+DEBUG   2018-01-10 09:57:54,276 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-01-10 10:10:01,846 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 10:10:01,847 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 10:10:01,849 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 10:10:01,850 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 10:10:03,432 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 10:10:03,435 [environment] Running new scenario: successful login
+DEBUG   2018-01-10 10:10:05,830 [login] Login with user 'tomsmith'
+ERROR   2018-01-10 10:10:10,878 [page_element] Page element of type 'InputText' with locator ('id', 'username') not found
+ERROR   2018-01-10 10:10:10,881 [environment] The scenario 'successful login' has failed
+INFO    2018-01-10 10:10:10,998 [utils] Screenshot saved in /home/thembela/Documents/Facebook_Login/output/screenshots/2018-01-10_101001_chrome/01_successful_login.png
+DEBUG   2018-01-10 10:10:11,000 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-01-10 10:10:11,066 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 10:10:11,066 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 10:10:11,068 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 10:10:11,068 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 10:10:12,649 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 10:10:12,652 [environment] Running new scenario: successful logout
+DEBUG   2018-01-10 10:10:15,432 [login] Login with user 'tomsmith'
+ERROR   2018-01-10 10:10:20,455 [page_element] Page element of type 'InputText' with locator ('id', 'username') not found
+ERROR   2018-01-10 10:10:20,457 [environment] The scenario 'successful logout' has failed
+INFO    2018-01-10 10:10:20,557 [utils] Screenshot saved in /home/thembela/Documents/Facebook_Login/output/screenshots/2018-01-10_101001_chrome/02_successful_logout.png
+DEBUG   2018-01-10 10:10:20,559 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-01-10 10:12:53,359 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 10:12:53,359 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 10:12:53,362 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 10:12:53,362 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 10:12:54,973 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 10:12:54,976 [environment] Running new scenario: successful login
+DEBUG   2018-01-10 10:12:57,539 [login] Login with user 'tkwenene@gmail.com'
+ERROR   2018-01-10 10:13:02,578 [page_element] Page element of type 'InputText' with locator ('id', 'username') not found
+ERROR   2018-01-10 10:13:02,580 [environment] The scenario 'successful login' has failed
+INFO    2018-01-10 10:13:02,678 [utils] Screenshot saved in /home/thembela/Documents/Facebook_Login/output/screenshots/2018-01-10_101253_chrome/01_successful_login.png
+DEBUG   2018-01-10 10:13:02,680 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-01-10 10:13:02,756 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 10:13:02,756 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 10:13:02,758 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 10:13:02,758 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 10:13:04,393 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 10:13:04,396 [environment] Running new scenario: successful logout
+DEBUG   2018-01-10 10:13:06,756 [login] Login with user 'tomsmith'
+ERROR   2018-01-10 10:13:11,810 [page_element] Page element of type 'InputText' with locator ('id', 'username') not found
+ERROR   2018-01-10 10:13:11,812 [environment] The scenario 'successful logout' has failed
+INFO    2018-01-10 10:13:11,912 [utils] Screenshot saved in /home/thembela/Documents/Facebook_Login/output/screenshots/2018-01-10_101253_chrome/02_successful_logout.png
+DEBUG   2018-01-10 10:13:11,914 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-01-10 10:16:09,018 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 10:16:09,018 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 10:16:09,021 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 10:16:09,021 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 10:16:10,622 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 10:16:10,625 [environment] Running new scenario: successful login
+DEBUG   2018-01-10 10:16:13,237 [login] Login with user 'tkwenene@gmail.com'
+INFO    2018-01-10 10:16:22,806 [environment] The scenario 'successful login' has passed
+DEBUG   2018-01-10 10:16:22,878 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 10:16:22,878 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 10:16:22,880 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 10:16:22,881 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 10:16:24,456 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 10:16:24,459 [environment] Running new scenario: successful logout
+DEBUG   2018-01-10 10:16:26,788 [login] Login with user 'tomsmith'
+ERROR   2018-01-10 10:16:30,228 [environment] The scenario 'successful logout' has failed
+INFO    2018-01-10 10:16:30,336 [utils] Screenshot saved in /home/thembela/Documents/Facebook_Login/output/screenshots/2018-01-10_101609_chrome/01_successful_logout.png
+DEBUG   2018-01-10 10:16:30,338 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-01-10 10:44:55,159 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 10:44:55,159 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 10:44:55,162 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 10:44:55,162 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 10:44:56,741 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 10:44:56,743 [environment] Running new scenario: successful login
+DEBUG   2018-01-10 10:44:59,341 [login] Login with user 'tkwenene@gmail.com'
+INFO    2018-01-10 10:45:09,419 [environment] The scenario 'successful login' has passed
+DEBUG   2018-01-10 10:45:09,493 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-10 10:45:09,493 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-10 10:45:09,496 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-10 10:45:09,497 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-10 10:45:11,078 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-10 10:45:11,081 [environment] Running new scenario: successful logout
+DEBUG   2018-01-10 10:45:13,423 [login] Login with user 'tomsmith'
+ERROR   2018-01-10 10:45:17,096 [environment] The scenario 'successful logout' has failed
+INFO    2018-01-10 10:45:17,197 [utils] Screenshot saved in /home/thembela/Documents/Facebook_Login/output/screenshots/2018-01-10_104455_chrome/01_successful_logout.png
+DEBUG   2018-01-10 10:45:17,200 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-01-11 14:33:56,261 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-11 14:33:56,261 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-11 14:33:56,264 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-11 14:33:56,264 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-11 14:33:57,829 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-11 14:33:57,832 [environment] Running new scenario: successful login
+INFO    2018-01-11 14:34:10,437 [environment] The scenario 'successful login' has passed
+DEBUG   2018-01-11 14:34:10,508 [config_parser] Reading properties from file: /home/thembela/Documents/Facebook_Login/conf/properties.cfg
+DEBUG   2018-01-11 14:34:10,509 [config_parser] Properties config file not found: /home/thembela/Documents/Facebook_Login/conf/local-properties.cfg
+INFO    2018-01-11 14:34:10,512 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-01-11 14:34:10,512 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-01-11 14:34:12,117 [driver_wrapper] Window size: 1366 x 697
+INFO    2018-01-11 14:34:12,121 [environment] Running new scenario: successful logout
+ERROR   2018-01-11 14:34:24,093 [environment] The scenario 'successful logout' has failed
+DEBUG   2018-01-11 14:34:24,127 [utils] Reading logs from 'browser, driver' and writing them to log files
