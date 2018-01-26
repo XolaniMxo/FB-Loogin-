@@ -1,12 +1,23 @@
-FROM jenkins
+#====================================
+# Install Toolium and required tools
+#====================================
+
+FROM xolanimxoxozi/toolium/
+pip install bahave
+
 USER root
 
-RUN mkdir -p /tmp/download && \
- curl -L https://get.docker.com/builds/Linux/x86_64/docker-1.13.1.tgz | tar -xz -C /tmp/download && \
- rm -rf /tmp/download/docker/dockerd && \
- mv /tmp/download/docker/docker* /usr/local/bin/ && \
- rm -rf /tmp/download && \
- groupadd -g 999 docker && \
- usermod -aG staff,docker jenkins
+apt-get update -qqy && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
+apt-get update && apt-get install -y --no-install-recommends apt-utils
+apt-get install -y git apt-utils apt-transport-https software-properties-common python-setuptools python-pip
+pip install --upgrade pip
+pip install --upgrade setuptools
+pip install wheel
+pip install python2
+pip install toolium
+pip install behave
 
 user jenkins
+
+EXPOSE 3000
+CMD behave
